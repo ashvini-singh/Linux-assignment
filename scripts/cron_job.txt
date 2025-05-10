@@ -1,0 +1,2 @@
+0 2 * * * /home/ubuntu/scripts/daily_backup.sh
+
