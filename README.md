@@ -84,14 +84,14 @@ chmod +x scripts/read_results.sh
 ```scripts/cron_job.txt ```
 
 
-## 🕒 **Cron Entry**
+## 🕒 **Cron Job Script**
 - Runs daily at 2 AM
   
 ```0 2 * * * /bin/bash /home/ubuntu/linux-assignment/scripts/daily_backup.sh ```
 
 
 
-## ▶️ **Setup**
+## ▶️ **Cron job Setup**
 
 ```crontab scripts/cron_job.txt ```
 
@@ -107,6 +107,7 @@ chmod +x scripts/read_results.sh
 
 
 - Created MySQL database and user
+
 
 ``` bash
 CREATE DATABASE testdb;
@@ -147,6 +148,7 @@ File: ```lamp/test.php ```
 
 ## 📎 How to Run the Scripts
 
+
 **📝 Shell Script (CSV Read)**
 
 ```bash
@@ -157,6 +159,7 @@ chmod +x scripts/read_results.sh
 
 **🛡️ Backup Script**
 
+
 ```bash
 chmod +x scripts/daily_backup.sh
 ./scripts/daily_backup.sh
@@ -165,6 +168,7 @@ chmod +x scripts/daily_backup.sh
 
 
 **⏰ Cron Setup**
+
 
 ```crontab scripts/cron_job.txt ```
 
@@ -192,9 +196,6 @@ linux-assignment/
 │   ├── daily_backup.sh
 │   └── cron_job.txt
 │
-├── screenshots/
-│   └── (Add your proof images here)
-│
 └── README.md
 ```
 
@@ -204,10 +205,13 @@ linux-assignment/
 
 **✅ Final Notes**
 
+
 - All tasks were successfully implemented and tested.
 - Ensure all .sh scripts have ```chmod +x ``` permission.
 
-**Correct Usage**
+
+**Usage of `chmod`**
+
 ```chmod +x <filename> ```
 
 
@@ -237,7 +241,7 @@ linux-assignment/
 
 
 
-- **Virtual web**
+- **Virtual host**
 
   
 
